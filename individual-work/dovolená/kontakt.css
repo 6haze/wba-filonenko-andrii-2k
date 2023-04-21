@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: #E5E5E5;
+    font-family: Arial;
+}
+
+
+header{
+    background: #CBC1B1;
+}
+
+.header-cont{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.header-ico{
+    
+
+}
+
+.header-nav{
+    align-self: center;
+   
+}
+
+.header-nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 1rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.header-nav a:hover{
+    background-color: #7c747438;
+    padding: 15px;
+    transition: 0.2s;
+}
+
+
+
+
+
+
+
+
+.kont{
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-size: 48px;
+    margin-top: 63px;
+}
+
+
+
+.main{
+    margin-top: 42px;
+}
+
+
+.parent{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.parent2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.div1 input, .div2 input, .div3 input, .div4 input{
+    width: 380px;
+    height: 40px;
+}
+
+.div5 input{
+    width: 788px;
+    height: 233px;
+}
+
+.div5{
+    display: flex;
+    justify-content: center;
+    margin-top: 29px;
+}
+
+
+
+.butt {
+    background-color: #7C7474;
+    text-align: center;
+    width: 110px;
+    margin: 0 auto;
+    margin-top: 28px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.butt a{
+    text-decoration: none;
+    color: #F8F7EC;
+}
+
+footer {
+    background-color: #CBC1B1;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+footer p{
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+
+
+
+@media screen and (min-width: 767px) {
+    .burger{
+        display: none;
+    }
+  }
+
+@media (max-width: 767px) {
+    .parent, .parent2 {
+        display: block;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .div1 input, .div2 input, .div3 input {
+        margin-bottom: 5%;
+    }
+
+    .header-nav{
+        display: none;
+    }
+
+    .header-ico img{
+        width: 80%;
+    }
+
+    .burger{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 320px;
+        top: 50px;
+     }
+    }
